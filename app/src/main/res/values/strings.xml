@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Piter Absensi</string>
+    <!-- Splash Screen -->
+    <string name="splashscreen_text">PITER 2023</string>
+    <string name="splashscreen_sub_text">Aplikasi Presensi Online</string>
+    <string name="footer_text">copyright © Piter - ardhikayoviyanto 2023</string>
+    <string name="required">Inputan Harus Diisi</string>
+    <string name="loading" tools:ignore="TypographyEllipsis">Loading ...</string>
+    <string name="tunggu" tools:ignore="TypographyEllipsis">Tunggu Sebentar ...</string>
+    <string name="absen_sekarang">Absen Sekarang</string>
+    <string name="sudah_absen">Anda Sudah Absen</string>
+    <string name="login">Login</string>
+    <string name="status_lembur_aktif">Status Lembur Anda Aktif</string>
+    <string name="status_lembur_tidak_aktif">Status Lembur Anda Tidak Aktif</string>
+    <string name="kategori_lkh_text">PILIH KATEGORI LKH</string>
+    <string name="kategori_cuti_text">PILIH KATEGORI CUTI</string>
+    <string name="kategori_izin_text">PILIH KATEGORI IZIN</string>
+    <string name="google_maps_key">AIzaSyC9U87yiuL6-gypL4xSrNpSoTeoPRC3FoU</string>
+    <string name="app_bar_absen_masuk">Absen Masuk</string>
+    <string name="app_bar_absen_pulang">Absen Pulang</string>
+    <string name="no_admin_wa">6281234567890</string>
+    <string-array name="kategori_lkh">
+        <item>PILIH KATEGORI LKH</item>
+    </string-array>
+    <string-array name="kategori_cuti">
+        <item>PILIH KATEGORI CUTI</item>
+    </string-array>
+    <string-array name="kategori_izin">
+        <item>PILIH KATEGORI IZIN</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

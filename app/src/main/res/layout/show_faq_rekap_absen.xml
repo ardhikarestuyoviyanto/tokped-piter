@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="Tl Kode, Ialah Kode Keterlambatan Absen Masuk. Setiap kode keterlambatan absen masuk mempunyai nilai potongan tunjangan kinerja."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+
+            <TableRow
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DDDDDD"
+                android:padding="5dp"
+                android:layout_marginTop="12dp"
+                >
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Kode"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:text="Lama Keterlambatan"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="Potongan (%)"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+            <TableRow
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="TL 1"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:text="0 - 5 Menit"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="1 %"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+            <TableRow
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DDDDDD"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="TL 2"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:text="6 - 10 Menit"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="2 %"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+            <TableRow
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="TL 3"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:text="11 - ~ Menit"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="3 %"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins"
+                android:text="PSW Kode, Ialah Kode Pulang Sebelum Waktu. Ketika pegawai pulang sebelum waktu jam pulang maka pegawai akan mendapatkan potongan tunjangan kinerja."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+            <TableRow
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DDDDDD"
+                android:padding="5dp"
+                android:layout_marginTop="12dp"
+                >
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Kode"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:text="Lama Keterlambatan"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="Potongan (%)"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+            <TableRow
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="PSW 1"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:text="0 - 5 Menit"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="1 %"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+            <TableRow
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DDDDDD"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="PSW 2"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:text="6 - 10 Menit"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="2 %"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+            <TableRow
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="PSW 3"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:text="11 - ~ Menit"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="3 %"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins"
+                android:text="Hanya pegawai PNS/CPNS yang mendapatkan gaji pokok dan tunjangan kinerja. Ketika hari libur dan pegawai dalam durasi izin/cuti maka potongan tunjangan akan diabaikan."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/dashboard_menu"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/tambah_cuti_menu"
+        android:title="Tambah"
+        android:icon="@drawable/ic_baseline_add_box_24"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/rekap_cuti_menu"
+        android:title="Rekap"
+        android:icon="@drawable/ic_baseline_file_copy_24"
+        tools:ignore="HardcodedText" />
+</menu>

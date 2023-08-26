@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.profile.ProfileActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Akun Saya"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:textSize="13sp"
+                android:text="Berikut adalah informasi mengenai detail akun anda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/foto"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/image_not_found"
+                android:scaleType="fitCenter"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                app:shapeAppearanceOverlay="@style/roundedImageProfile" />
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="NIDN"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nidn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border_form_input"
+                android:hint=""
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border_form_input"
+                android:hint=""
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_marginTop="17dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="Nama Pegawai"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nama_pegawai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border_form_input"
+                android:hint=""
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_marginTop="17dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="Status Pegawai"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/status_pegawai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border_form_input"
+                android:hint=""
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_marginTop="17dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="Unit Kerja"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nama_unit_kerja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border_form_input"
+                android:hint=""
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_marginTop="17dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="Status Pekerja"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/status_pegawai_wfh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border_form_input"
+                android:hint=""
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_marginTop="17dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="Password Lama"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/password_lama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border_form_input"
+                android:hint="Masukkan Password Lama"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_marginTop="17dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:text="Password Baru"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/password_baru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border_form_input"
+                android:hint="Masukkan Password Baru"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:importantForAutofill="no" />
+
+            <Button
+                android:id="@+id/button_submit"
+                android:background="@drawable/border_button_normal"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Ubah Password"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
